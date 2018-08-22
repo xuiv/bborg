@@ -1,0 +1,877 @@
+# Copyright (C) 2018 John James Jacoby
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: BBorg 2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/bborg\n"
+"POT-Creation-Date: 2018-08-04 03:00:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-08-04 11:13+0800\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+
+#: 404.php:3
+msgid "Error 404 - Destination Not Found"
+msgstr "Error 404 - 目标未找到"
+
+#: archive-forum.php:3
+msgid "Topics"
+msgstr "话题"
+
+#. translators: 1: post date, 2: post author
+#: archive.php:11 index.php:11 single.php:6
+msgid "Published on %1$s by %2$s"
+msgstr "时间 %1$s 作者 %2$s"
+
+#: archive.php:23
+msgid "Previous page"
+msgstr "上一页"
+
+#: archive.php:24
+msgid "Next page"
+msgstr "下一页"
+
+#: archive.php:25
+msgid "Page"
+msgstr "页"
+
+#: archive.php:28 index.php:34 single.php:19
+msgid "Sorry, no posts matched your criteria."
+msgstr "没有你要的发言。"
+
+#: attachment.php:14
+msgid "Permanent Link to %s"
+msgstr "链接到 %s"
+
+#: attachment.php:18
+msgid "Check it out!"
+msgstr "仔细检查！"
+
+#: attachment.php:20
+#, fuzzy
+msgid "Pages: "
+msgstr "页："
+
+#. translators: 1: Date; 2: Time; 3: Category list; 4: Comment feed URL.
+#: attachment.php:29
+msgid ""
+"This entry was posted on %1$s at %2$s and is filed under %3$s. You can "
+"follow any responses to this entry through the <a href=\"%4$s\">RSS 2.0</a> "
+"feed."
+msgstr ""
+
+#: attachment.php:38
+msgid ""
+"You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+"\"trackback\">trackback</a> from your own site."
+msgstr ""
+"你可以从自己的网站<a href=\"#respond\">响应</a>，或<a href=\"%s\" rel="
+"\"trackback\">回复</a> ，"
+
+#: attachment.php:41
+msgid ""
+"Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+"\">trackback</a> from your own site."
+msgstr ""
+"响应已关闭，不过你可从自己的网站 <a href=\"%s\" rel=\"trackback\">trackback</"
+"a> 。"
+
+#: attachment.php:44
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr "你可以跳到最后发起回应，此处不准测试。"
+
+#: attachment.php:47
+msgid "Both comments and pings are currently closed."
+msgstr "评论和ping信号目前都已关闭。"
+
+#: attachment.php:59 image.php:55
+msgid "Whoops!"
+msgstr ""
+
+#: attachment.php:60
+msgid "Sorry friend, there&#8217;s no attachments for you to see here."
+msgstr "这里没有你能查看的附件。"
+
+#: bbpress/feedback-search.php:2
+msgid "Please enter some search terms above"
+msgstr "输入一些查找词条"
+
+#: bbpress/form-topic-merge.php:24
+msgid "Merge topic \"%s\""
+msgstr "话题合并 \"%s\""
+
+#: bbpress/form-topic-merge.php:29
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr "选择要合并到其中的话题。目标话题仍然是主导话题，而这个话题将变为回复。"
+
+#: bbpress/form-topic-merge.php:30
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr "要使此话题称为主话题，请去要合并的话题页面并使用那个页面中的合并工具。"
+
+#: bbpress/form-topic-merge.php:34
+msgid ""
+"All replies within both the topics will be merged chronologically. The order "
+"of the merged replies is based on the time they were posted. If the "
+"destination topic was created after this one, its post date will be updated "
+"to a second earlier than this one."
+msgstr ""
+"两个主题的所有回复将按时间顺序合并。合并回复的顺序是基于它们被发布的时间。如"
+"果目标主题是在这个主题之后创建的，那么它的发布日期将更新为比这个主题早一秒。"
+
+#: bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr "目标"
+
+#: bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr "合并此话题："
+
+#: bbpress/form-topic-merge.php:60
+msgid "There are no other topics in this forum to merge with."
+msgstr "在这个论坛里没有其他的话题可以合并。"
+
+#: bbpress/form-topic-merge.php:68 bbpress/form-topic-split.php:71
+msgid "Topic Extras"
+msgstr "话题附加"
+
+#: bbpress/form-topic-merge.php:75
+msgid "Merge topic subscribers"
+msgstr "合并定阅的话题"
+
+#: bbpress/form-topic-merge.php:80
+msgid "Merge topic favoriters"
+msgstr "合并喜爱的话题"
+
+#: bbpress/form-topic-merge.php:85
+msgid "Merge topic tags"
+msgstr "合并话题标签"
+
+#: bbpress/form-topic-merge.php:93 bbpress/form-topic-split.php:96
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr "<strong>注意:</strong> 此操作不可取消。"
+
+#: bbpress/form-topic-merge.php:97 bbpress/form-topic-split.php:100
+#: bbpress/form-topic.php:178
+msgid "Submit"
+msgstr "提交"
+
+#: bbpress/form-topic-merge.php:110 bbpress/form-topic-split.php:113
+msgid "You do not have the permissions to edit this topic!"
+msgstr "您无权编辑该话题。"
+
+#: bbpress/form-topic-merge.php:110 bbpress/form-topic-split.php:113
+msgid "You cannot edit this topic."
+msgstr "您不能编辑该话题。"
+
+#: bbpress/form-topic-split.php:24
+msgid "Split topic \"%s\""
+msgstr "话题拆分 \"%s\""
+
+#: bbpress/form-topic-split.php:29
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+"当你拆分话题时，你会从所选发言拆开，可以为拆出的发言设定新话题名称，或合并到"
+"其它话题。"
+
+#: bbpress/form-topic-split.php:33
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+"如果您使用现有的话题选项，两个话题中的回复将按时间顺序合并。合并回复的顺序是"
+"基于它们被发布的时间和日期。"
+
+#: bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr "分离方法"
+
+#: bbpress/form-topic-split.php:41
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr "新建话题在 <strong>%s</strong> 中:"
+
+#: bbpress/form-topic-split.php:42
+msgid "Split: %s"
+msgstr "拆分：%s"
+
+#: bbpress/form-topic-split.php:49
+msgid "Use an existing topic in this forum:"
+msgstr "使用一个本论坛已有的话题："
+
+#: bbpress/form-topic-split.php:78
+msgid "Copy subscribers to the new topic"
+msgstr "复制订阅的内容到新话题"
+
+#: bbpress/form-topic-split.php:83
+msgid "Copy favoriters to the new topic"
+msgstr "复制收藏的内容到新话题"
+
+#: bbpress/form-topic-split.php:88
+msgid "Copy topic tags to the new topic"
+msgstr "复制话题标签到新话题"
+
+#: bbpress/form-topic.php:20
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr "现在编辑 &ldquo;%s&rdquo;"
+
+#: bbpress/form-topic.php:22
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr "在 &ldquo;%s&rdquo; 新建话题"
+
+#: bbpress/form-topic.php:22 header-subnav.php:5
+msgid "Create New Topic"
+msgstr "新建话题"
+
+#: bbpress/form-topic.php:38
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr "这个论坛被标记为关闭，但是您的发布功能仍然允许您这样做。"
+
+#: bbpress/form-topic.php:46
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr "你可以使用HTML代码。"
+
+#: bbpress/form-topic.php:60
+msgid "Topic Title (Maximum Length: %d):"
+msgstr "话题名称 (最大长度： %d)："
+
+#: bbpress/form-topic.php:71
+msgid "Reply:"
+msgstr "回复："
+
+#: bbpress/form-topic.php:86
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+"可以使用 <abbr title=\"HyperText Markup Language\">HTML</abbr> 标签和属性："
+
+#: bbpress/form-topic.php:95
+msgid "Topic Tags:"
+msgstr "话题标签："
+
+#: bbpress/form-topic.php:106
+msgid "Forum:"
+msgstr "论坛："
+
+#: bbpress/form-topic.php:120
+msgid "Topic Type:"
+msgstr "话题分类："
+
+#: bbpress/form-topic.php:139
+msgid "Notify the author of follow-up replies via email"
+msgstr "如有回复者通过邮件通知我"
+
+#: bbpress/form-topic.php:143
+msgid "Notify me of follow-up replies via email"
+msgstr "如有回复通过邮件通知我"
+
+#: bbpress/form-topic.php:159
+msgid "Keep a log of this edit:"
+msgstr "保留编辑记录："
+
+#: bbpress/form-topic.php:163
+msgid "Optional reason for editing:"
+msgstr "编辑原因："
+
+#: bbpress/form-topic.php:201
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr "此论坛 &#8216;%s&#8217; 已关闭。"
+
+#: bbpress/form-topic.php:209
+msgid "You cannot create new topics at this time."
+msgstr "此时你不能发布新话题。"
+
+#: bbpress/form-topic.php:209
+msgid "You must be logged in to create new topics."
+msgstr "必需登录后发布新话题。"
+
+#: bbpress/loop-forums.php:8
+msgid "Forum"
+msgstr "论坛"
+
+#: bbpress/loop-forums.php:9 buddypress/activity/index.php:79
+msgid "Posts"
+msgstr "发言"
+
+#: bbpress/loop-single-reply.php:15
+msgid "In reply to: "
+msgstr "回复给："
+
+#: bbpress/loop-single-topic.php:49
+msgid "Started by: %1$s"
+msgstr "发起于: %1$s"
+
+#: bbpress/loop-single-topic.php:57
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr "在: <a href=\"%1$s\">%2$s</a>"
+
+#: buddypress/activity/index.php:19
+msgid "The public activity for everyone on this site."
+msgstr "全站成员可参与的活动。"
+
+#: buddypress/activity/index.php:19
+msgid "All Members <span5%s</span>"
+msgstr "所有成员 <span5%s</span>"
+
+#: buddypress/activity/index.php:29
+msgid "The activity of my friends only."
+msgstr "此会话只能我朋友参与"
+
+#: buddypress/activity/index.php:29
+msgid "My Friends <span>%s</span>"
+msgstr "朋友 <span>%s</span>"
+
+#: buddypress/activity/index.php:41
+msgid "The activity of groups I am a member of."
+msgstr "我是此会话的组员。"
+
+#: buddypress/activity/index.php:41
+msgid "My Groups <span>%s</span>"
+msgstr "分组 <span>%s</span>"
+
+#: buddypress/activity/index.php:51
+msgid "The activity I've marked as a favorite."
+msgstr "此会话己收藏。"
+
+#: buddypress/activity/index.php:51
+msgid "My Favorites <span>%s</span>"
+msgstr "收藏 <span>%s</span>"
+
+#: buddypress/activity/index.php:57
+msgid "Activity that I have been mentioned in."
+msgstr "我关注的活动。"
+
+#: buddypress/activity/index.php:57
+msgid "Mentions"
+msgstr "关注"
+
+#: buddypress/activity/index.php:57
+msgid "<span>%s new</span>"
+msgstr "<span>%s 新建</span>"
+
+#: buddypress/activity/index.php:67
+msgid "RSS Feed"
+msgstr "RSS 供料"
+
+#: buddypress/activity/index.php:67
+msgid "RSS"
+msgstr ""
+
+#: buddypress/activity/index.php:72
+msgid "Show:"
+msgstr "显示："
+
+#: buddypress/activity/index.php:74
+msgid "Everything"
+msgstr "全部"
+
+#: buddypress/activity/index.php:75
+msgid "Updates"
+msgstr "更新"
+
+#: buddypress/activity/index.php:80 header-accessibility.php:8
+msgid "Comments"
+msgstr "评论"
+
+#: buddypress/activity/index.php:86 sidebar.php:21
+msgid "Forum Topics"
+msgstr "论坛话题"
+
+#: buddypress/activity/index.php:87
+msgid "Forum Replies"
+msgstr "论坛回复"
+
+#: buddypress/activity/index.php:93
+msgid "New Groups"
+msgstr "新组"
+
+#: buddypress/activity/index.php:94
+msgid "Group Memberships"
+msgstr "组员"
+
+#: buddypress/activity/index.php:100
+msgid "Friendships"
+msgstr "友谊"
+
+#: buddypress/activity/index.php:104
+msgid "New Members"
+msgstr "新成员"
+
+#: buddypress/members/single/profile/edit.php:10
+msgid "Editing '%s' Profile Group"
+msgstr "修改 '%s' 用户组"
+
+#: buddypress/members/single/profile/edit.php:26
+#: buddypress/members/single/profile/edit.php:33
+#: buddypress/members/single/profile/edit.php:40
+#: buddypress/members/single/profile/edit.php:49
+#: buddypress/members/single/profile/edit.php:67
+#: buddypress/members/single/profile/edit.php:83
+#: buddypress/members/single/profile/edit.php:93 comments.php:45
+#: comments.php:47
+msgid "(required)"
+msgstr "（必需）"
+
+#: buddypress/members/single/profile/edit.php:58
+#: buddypress/members/single/profile/edit.php:73
+msgid "Clear"
+msgstr "清除"
+
+#: buddypress/members/single/profile/edit.php:126
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: comments.php:2
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "要查看留言请输入您的密码。"
+
+#: comments.php:20
+msgid "There are no comments to display"
+msgstr "没有评论可显示"
+
+#: comments.php:24
+msgid "Comments are closed."
+msgstr "评论已关闭"
+
+#: comments.php:33
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "必须 <a href=\"%s\">登录</a> 留言。"
+
+#: comments.php:40
+msgid "Leave a Reply"
+msgstr "回复"
+
+#: comments.php:40
+msgid "Leave a Reply to %s"
+msgstr "回复给：%s"
+
+#: comments.php:41
+msgid "Cancel Comment Reply"
+msgstr "取消评论"
+
+#: comments.php:45
+msgid "Name"
+msgstr "名称"
+
+#: comments.php:47
+msgid "Mail (will not be published)"
+msgstr "电子邮箱地址（不公开）"
+
+#: comments.php:49
+msgid "Website"
+msgstr "网站"
+
+#: comments.php:56
+msgid "Submit Comment"
+msgstr "提交评论"
+
+#: footer.php:9
+msgid "RSS Feed for Articles"
+msgstr "RSS 文章供料"
+
+#: footer.php:9
+msgid "Blog RSS"
+msgstr ""
+
+#: footer.php:14
+msgid "Wordpress"
+msgstr ""
+
+#: footer.php:15
+msgid "GPL"
+msgstr ""
+
+#: functions.php:70
+msgid "Forum Search"
+msgstr "论坛查找"
+
+#: functions.php:71 functions.php:86 functions.php:101
+msgid "Search for:"
+msgstr "搜索："
+
+#: functions.php:73 functions.php:88 functions.php:103
+#: header-accessibility.php:6 searchform.php:6
+msgid "Search"
+msgstr "搜索"
+
+#: functions.php:85
+msgid "Reply Search"
+msgstr "回复查找"
+
+#: functions.php:100
+msgid "Plugin Search"
+msgstr "查找插件"
+
+#: functions.php:166
+msgid "%s participant"
+msgid_plural "%s participants"
+msgstr[0] "%s 个参与者"
+
+#. translators: %s: forum title
+#: functions.php:173 functions.php:239
+msgid "In: %s"
+msgstr "在: %s"
+
+#. translators: %s: reply author link
+#: functions.php:189
+msgid "Last reply from: %s"
+msgstr "最近回复者： %s"
+
+#. translators: %s: date/time link to the latest post
+#: functions.php:197 functions.php:264
+msgid "Last activity: %s"
+msgstr "最近发言：%s"
+
+#: functions.php:222
+msgid "%s reply"
+msgid_plural "%s replies"
+msgstr[0] "%s 个回复"
+
+#: functions.php:232
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] "%s 个话题"
+
+#. translators: %s: post author link
+#: functions.php:256
+msgid "Last post by: %s"
+msgstr "最近作者：%s"
+
+#: functions.php:313
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"遭遇未知HTTP错误</p> <p><a href=\"?\" onclick=\"document.location.reload(); "
+"return false;\">重试</a>"
+
+#: functions.php:317
+msgid "An unknown error occurred"
+msgstr "发生未知错误。"
+
+#: functions.php:335
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] "（基于 %s 评级）"
+
+#: functions.php:337 functions.php:344 functions.php:346
+msgid "1 stars"
+msgstr "星"
+
+#: functions.php:338 functions.php:349 functions.php:351
+msgid "2 stars"
+msgstr "星"
+
+#: functions.php:339 functions.php:354 functions.php:356
+msgid "3 stars"
+msgstr "星"
+
+#: functions.php:340 functions.php:359 functions.php:361
+msgid "4 stars"
+msgstr "星"
+
+#: functions.php:341 functions.php:364 functions.php:366
+msgid "5 stars"
+msgstr "星"
+
+#: functions.php:607
+msgid "bborg Widget Area"
+msgstr "bborg 小组件区域"
+
+#: functions.php:609
+msgid "Add widgets here to appear in your sidebar."
+msgstr "添加小部件显示到边栏中。"
+
+#: header-accessibility.php:3
+msgid "Content"
+msgstr "内容"
+
+#: header-accessibility.php:4
+msgid "Pages"
+msgstr "页"
+
+#: header-accessibility.php:5 sidebar.php:106
+msgid "Categories"
+msgstr "分类"
+
+#: header-accessibility.php:9
+msgid "Respond"
+msgstr "回应"
+
+#: header-accessibility.php:11
+msgid "Top"
+msgstr "顶部"
+
+#: header-accessibility.php:13
+msgid "Previous Post"
+msgstr "前一个发言"
+
+#: header-accessibility.php:14
+msgid "Next Post"
+msgstr "下一个发言"
+
+#: header-accessibility.php:16
+msgid "Bottom"
+msgstr "下"
+
+#: header-front.php:4
+msgid ""
+"Thou hast made me endless, such is thy pleasure. This frail vessel thou "
+"emptiest again and again, and fillest it ever with fresh life. "
+msgstr ""
+
+#: header-front.php:6
+msgid "Chatter Gaily &rarr;"
+msgstr ""
+
+#: header-front.php:7
+msgid "Screenshots"
+msgstr "截图"
+
+#: header-nav.php:5
+msgid "About"
+msgstr "关于"
+
+#: header-nav.php:6
+msgid "Plugins"
+msgstr "插件"
+
+#: header-nav.php:7
+msgid "Themes"
+msgstr "模板"
+
+#: header-nav.php:8
+msgid "Documentation"
+msgstr "文档"
+
+#: header-nav.php:9 sidebar.php:98
+msgid "Blog"
+msgstr "日志"
+
+#: header-nav.php:10
+msgid "Support"
+msgstr "支持"
+
+#: header-nav.php:11
+msgid "Download"
+msgstr "下载"
+
+#: header-subnav.php:11
+msgid "Register"
+msgstr "注册"
+
+#: header-subnav.php:12
+msgid "Lost Password"
+msgstr "丢失密码"
+
+#: header-subnav.php:13
+msgid "Log In"
+msgstr "登录"
+
+#: header-subnav.php:15
+msgid "Favorites"
+msgstr "收藏"
+
+#: header-subnav.php:16
+msgid "Subscriptions"
+msgstr "订阅"
+
+#: image.php:11
+msgid "Read more &laquo;"
+msgstr "继续阅读 &laquo;"
+
+#: image.php:13
+msgid "Published on"
+msgstr "发布于"
+
+#. translators: 1: Date; 2: time.
+#: image.php:17
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. translators: author posts link
+#: image.php:23
+msgid "by <cite>%s</cite>"
+msgstr "由 <cite>%s</cite>"
+
+#: image.php:26
+msgid "Tagged as"
+msgstr "标识为"
+
+#: image.php:27
+msgid "Categorized under"
+msgstr "分类为"
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>not been left</dd>"
+msgstr ""
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>been left once</dd>"
+msgstr ""
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>been left % times</dd>"
+msgstr ""
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>been turned off</dd>"
+msgstr ""
+
+#: image.php:30
+msgid "Syndication through"
+msgstr "联合通过"
+
+#: image.php:33
+msgid "Trackback from"
+msgstr ""
+
+#: image.php:34
+msgid "your own site"
+msgstr "个人网站"
+
+#: image.php:37
+msgid ""
+"<dt>Respond if</dt><dd><a href=\"#respond\">you&#8217;d like to leave "
+"feedback</a></dd>"
+msgstr ""
+
+#: image.php:39 page.php:11
+msgid "Edit"
+msgstr "编辑"
+
+#: image.php:39
+msgid "You can"
+msgstr "你能"
+
+#: image.php:44
+msgid "View Older or Newer Images"
+msgstr "查看前一个或后一个图片"
+
+#: image.php:56
+msgid "Sorry, no images matched your criteria."
+msgstr "没有你要的图片。"
+
+#: index.php:17 single.php:11
+msgid "Read more &rarr;"
+msgstr "继续阅读 &rarr;"
+
+#: index.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> 前一个发言"
+
+#: index.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "新手发言 <span class=\"meta-nav\">&rarr;</span>"
+
+#: page-homepage.php:7 sidebar.php:21
+msgid "Recent Topics"
+msgstr "最近话题"
+
+#: page.php:5
+msgid "Read more &raquo;"
+msgstr "继续阅读 &laquo;"
+
+#: page.php:7
+msgid "Pages:"
+msgstr "页："
+
+#: searchform.php:3
+msgid "Search this website"
+msgstr "查找本站"
+
+#: searchform.php:4
+msgid "for:"
+msgstr ""
+
+#: sidebar.php:9
+msgid "Forum Info"
+msgstr "论坛信息"
+
+#: sidebar.php:18
+msgid "Forum Feeds"
+msgstr "论坛供料"
+
+#: sidebar.php:20
+msgid "Forum Posts"
+msgstr "论坛发言"
+
+#: sidebar.php:20
+msgid "Recent Posts"
+msgstr "最近发言"
+
+#: sidebar.php:28
+msgid "Topic Info"
+msgstr "话题信息"
+
+#: sidebar.php:36
+msgid "Topic Tags"
+msgstr "话题标签"
+
+#: sidebar.php:49
+msgid "Topic Admin"
+msgstr "话题管理"
+
+#: sidebar.php:61
+msgid "Forums"
+msgstr "论坛"
+
+#: sidebar.php:68
+msgid "Views"
+msgstr "查看"
+
+#: sidebar.php:81
+msgid "Feeds"
+msgstr "供料"
+
+#: sidebar.php:83
+msgid "All Recent Posts"
+msgstr "最新发言"
+
+#: sidebar.php:84
+msgid "All Recent Topics"
+msgstr "最新话题"
+
+#: sidebar.php:89 sidebar.php:113
+msgid "Tags"
+msgstr "标签"
+
+#. Theme Name of the plugin/theme
+msgid "BBorg"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://buddypress.org"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Parent theme for BuddyPress.org and bbPress.org"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "John James Jacoby"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://jaco.by"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr ""

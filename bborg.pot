@@ -1,0 +1,864 @@
+# Copyright (C) 2018 John James Jacoby
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: BBorg 2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/bborg\n"
+"POT-Creation-Date: 2018-08-04 03:00:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:3
+msgid "Error 404 - Destination Not Found"
+msgstr ""
+
+#: archive-forum.php:3
+msgid "Topics"
+msgstr ""
+
+#. translators: 1: post date, 2: post author
+#: archive.php:11 index.php:11 single.php:6
+msgid "Published on %1$s by %2$s"
+msgstr ""
+
+#: archive.php:23
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:24
+msgid "Next page"
+msgstr ""
+
+#: archive.php:25
+msgid "Page"
+msgstr ""
+
+#: archive.php:28 index.php:34 single.php:19
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: attachment.php:14
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: attachment.php:18
+msgid "Check it out!"
+msgstr ""
+
+#: attachment.php:20
+msgid "Pages: "
+msgstr ""
+
+#. translators: 1: Date; 2: Time; 3: Category list; 4: Comment feed URL.
+#: attachment.php:29
+msgid ""
+"This entry was posted on %1$s at %2$s and is filed under %3$s. You can "
+"follow any responses to this entry through the <a href=\"%4$s\">RSS 2.0</a> "
+"feed."
+msgstr ""
+
+#: attachment.php:38
+msgid ""
+"You can <a href=\"#respond\">leave a response</a>, or <a href=\"%s\" rel="
+"\"trackback\">trackback</a> from your own site."
+msgstr ""
+
+#: attachment.php:41
+msgid ""
+"Responses are currently closed, but you can <a href=\"%s\" rel=\"trackback"
+"\">trackback</a> from your own site."
+msgstr ""
+
+#: attachment.php:44
+msgid ""
+"You can skip to the end and leave a response. Pinging is currently not "
+"allowed."
+msgstr ""
+
+#: attachment.php:47
+msgid "Both comments and pings are currently closed."
+msgstr ""
+
+#: attachment.php:59 image.php:55
+msgid "Whoops!"
+msgstr ""
+
+#: attachment.php:60
+msgid "Sorry friend, there&#8217;s no attachments for you to see here."
+msgstr ""
+
+#: bbpress/feedback-search.php:2
+msgid "Please enter some search terms above"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:24
+msgid "Merge topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-merge.php:29
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:30
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:34
+msgid ""
+"All replies within both the topics will be merged chronologically. The order "
+"of the merged replies is based on the time they were posted. If the "
+"destination topic was created after this one, its post date will be updated "
+"to a second earlier than this one."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:38
+msgid "Destination"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:42
+msgid "Merge with this topic:"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:60
+msgid "There are no other topics in this forum to merge with."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:68 bbpress/form-topic-split.php:71
+msgid "Topic Extras"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:75
+msgid "Merge topic subscribers"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:80
+msgid "Merge topic favoriters"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:85
+msgid "Merge topic tags"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:93 bbpress/form-topic-split.php:96
+msgid "<strong>WARNING:</strong> This process cannot be undone."
+msgstr ""
+
+#: bbpress/form-topic-merge.php:97 bbpress/form-topic-split.php:100
+#: bbpress/form-topic.php:178
+msgid "Submit"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:110 bbpress/form-topic-split.php:113
+msgid "You do not have the permissions to edit this topic!"
+msgstr ""
+
+#: bbpress/form-topic-merge.php:110 bbpress/form-topic-split.php:113
+msgid "You cannot edit this topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:24
+msgid "Split topic \"%s\""
+msgstr ""
+
+#: bbpress/form-topic-split.php:29
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+
+#: bbpress/form-topic-split.php:33
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+
+#: bbpress/form-topic-split.php:37
+msgid "Split Method"
+msgstr ""
+
+#: bbpress/form-topic-split.php:41
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:42
+msgid "Split: %s"
+msgstr ""
+
+#: bbpress/form-topic-split.php:49
+msgid "Use an existing topic in this forum:"
+msgstr ""
+
+#: bbpress/form-topic-split.php:78
+msgid "Copy subscribers to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:83
+msgid "Copy favoriters to the new topic"
+msgstr ""
+
+#: bbpress/form-topic-split.php:88
+msgid "Copy topic tags to the new topic"
+msgstr ""
+
+#: bbpress/form-topic.php:20
+msgid "Now Editing &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:22
+msgid "Create New Topic in &ldquo;%s&rdquo;"
+msgstr ""
+
+#: bbpress/form-topic.php:22 header-subnav.php:5
+msgid "Create New Topic"
+msgstr ""
+
+#: bbpress/form-topic.php:38
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so."
+msgstr ""
+
+#: bbpress/form-topic.php:46
+msgid "Your account has the ability to post unrestricted HTML content."
+msgstr ""
+
+#: bbpress/form-topic.php:60
+msgid "Topic Title (Maximum Length: %d):"
+msgstr ""
+
+#: bbpress/form-topic.php:71
+msgid "Reply:"
+msgstr ""
+
+#: bbpress/form-topic.php:86
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+
+#: bbpress/form-topic.php:95
+msgid "Topic Tags:"
+msgstr ""
+
+#: bbpress/form-topic.php:106
+msgid "Forum:"
+msgstr ""
+
+#: bbpress/form-topic.php:120
+msgid "Topic Type:"
+msgstr ""
+
+#: bbpress/form-topic.php:139
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-topic.php:143
+msgid "Notify me of follow-up replies via email"
+msgstr ""
+
+#: bbpress/form-topic.php:159
+msgid "Keep a log of this edit:"
+msgstr ""
+
+#: bbpress/form-topic.php:163
+msgid "Optional reason for editing:"
+msgstr ""
+
+#: bbpress/form-topic.php:201
+msgid "The forum &#8216;%s&#8217; is closed to new topics and replies."
+msgstr ""
+
+#: bbpress/form-topic.php:209
+msgid "You cannot create new topics at this time."
+msgstr ""
+
+#: bbpress/form-topic.php:209
+msgid "You must be logged in to create new topics."
+msgstr ""
+
+#: bbpress/loop-forums.php:8
+msgid "Forum"
+msgstr ""
+
+#: bbpress/loop-forums.php:9 buddypress/activity/index.php:79
+msgid "Posts"
+msgstr ""
+
+#: bbpress/loop-single-reply.php:15
+msgid "In reply to: "
+msgstr ""
+
+#: bbpress/loop-single-topic.php:49
+msgid "Started by: %1$s"
+msgstr ""
+
+#: bbpress/loop-single-topic.php:57
+msgid "in: <a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: buddypress/activity/index.php:19
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: buddypress/activity/index.php:19
+msgid "All Members <span5%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:29
+msgid "The activity of my friends only."
+msgstr ""
+
+#: buddypress/activity/index.php:29
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:41
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: buddypress/activity/index.php:41
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:51
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: buddypress/activity/index.php:51
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:57
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: buddypress/activity/index.php:57
+msgid "Mentions"
+msgstr ""
+
+#: buddypress/activity/index.php:57
+msgid "<span>%s new</span>"
+msgstr ""
+
+#: buddypress/activity/index.php:67
+msgid "RSS Feed"
+msgstr ""
+
+#: buddypress/activity/index.php:67
+msgid "RSS"
+msgstr ""
+
+#: buddypress/activity/index.php:72
+msgid "Show:"
+msgstr ""
+
+#: buddypress/activity/index.php:74
+msgid "Everything"
+msgstr ""
+
+#: buddypress/activity/index.php:75
+msgid "Updates"
+msgstr ""
+
+#: buddypress/activity/index.php:80 header-accessibility.php:8
+msgid "Comments"
+msgstr ""
+
+#: buddypress/activity/index.php:86 sidebar.php:21
+msgid "Forum Topics"
+msgstr ""
+
+#: buddypress/activity/index.php:87
+msgid "Forum Replies"
+msgstr ""
+
+#: buddypress/activity/index.php:93
+msgid "New Groups"
+msgstr ""
+
+#: buddypress/activity/index.php:94
+msgid "Group Memberships"
+msgstr ""
+
+#: buddypress/activity/index.php:100
+msgid "Friendships"
+msgstr ""
+
+#: buddypress/activity/index.php:104
+msgid "New Members"
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:10
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:26
+#: buddypress/members/single/profile/edit.php:33
+#: buddypress/members/single/profile/edit.php:40
+#: buddypress/members/single/profile/edit.php:49
+#: buddypress/members/single/profile/edit.php:67
+#: buddypress/members/single/profile/edit.php:83
+#: buddypress/members/single/profile/edit.php:93 comments.php:45
+#: comments.php:47
+msgid "(required)"
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:58
+#: buddypress/members/single/profile/edit.php:73
+msgid "Clear"
+msgstr ""
+
+#: buddypress/members/single/profile/edit.php:126
+msgid "Save Changes"
+msgstr ""
+
+#: comments.php:2
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:20
+msgid "There are no comments to display"
+msgstr ""
+
+#: comments.php:24
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:33
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:40
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:40
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:41
+msgid "Cancel Comment Reply"
+msgstr ""
+
+#: comments.php:45
+msgid "Name"
+msgstr ""
+
+#: comments.php:47
+msgid "Mail (will not be published)"
+msgstr ""
+
+#: comments.php:49
+msgid "Website"
+msgstr ""
+
+#: comments.php:56
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:9
+msgid "RSS Feed for Articles"
+msgstr ""
+
+#: footer.php:9
+msgid "Blog RSS"
+msgstr ""
+
+#: footer.php:14
+msgid "Wordpress"
+msgstr ""
+
+#: footer.php:15
+msgid "GPL"
+msgstr ""
+
+#: functions.php:70
+msgid "Forum Search"
+msgstr ""
+
+#: functions.php:71 functions.php:86 functions.php:101
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:73 functions.php:88 functions.php:103
+#: header-accessibility.php:6 searchform.php:6
+msgid "Search"
+msgstr ""
+
+#: functions.php:85
+msgid "Reply Search"
+msgstr ""
+
+#: functions.php:100
+msgid "Plugin Search"
+msgstr ""
+
+#: functions.php:166
+msgid "%s participant"
+msgid_plural "%s participants"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: forum title
+#: functions.php:173 functions.php:239
+msgid "In: %s"
+msgstr ""
+
+#. translators: %s: reply author link
+#: functions.php:189
+msgid "Last reply from: %s"
+msgstr ""
+
+#. translators: %s: date/time link to the latest post
+#: functions.php:197 functions.php:264
+msgid "Last activity: %s"
+msgstr ""
+
+#: functions.php:222
+msgid "%s reply"
+msgid_plural "%s replies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:232
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: post author link
+#: functions.php:256
+msgid "Last post by: %s"
+msgstr ""
+
+#: functions.php:313
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: functions.php:317
+msgid "An unknown error occurred"
+msgstr ""
+
+#: functions.php:335
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:337 functions.php:344 functions.php:346
+msgid "1 stars"
+msgstr ""
+
+#: functions.php:338 functions.php:349 functions.php:351
+msgid "2 stars"
+msgstr ""
+
+#: functions.php:339 functions.php:354 functions.php:356
+msgid "3 stars"
+msgstr ""
+
+#: functions.php:340 functions.php:359 functions.php:361
+msgid "4 stars"
+msgstr ""
+
+#: functions.php:341 functions.php:364 functions.php:366
+msgid "5 stars"
+msgstr ""
+
+#: functions.php:607
+msgid "bborg Widget Area"
+msgstr ""
+
+#: functions.php:609
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: header-accessibility.php:3
+msgid "Content"
+msgstr ""
+
+#: header-accessibility.php:4
+msgid "Pages"
+msgstr ""
+
+#: header-accessibility.php:5 sidebar.php:106
+msgid "Categories"
+msgstr ""
+
+#: header-accessibility.php:9
+msgid "Respond"
+msgstr ""
+
+#: header-accessibility.php:11
+msgid "Top"
+msgstr ""
+
+#: header-accessibility.php:13
+msgid "Previous Post"
+msgstr ""
+
+#: header-accessibility.php:14
+msgid "Next Post"
+msgstr ""
+
+#: header-accessibility.php:16
+msgid "Bottom"
+msgstr ""
+
+#: header-front.php:4
+msgid ""
+"Thou hast made me endless, such is thy pleasure. This frail vessel thou "
+"emptiest again and again, and fillest it ever with fresh life. "
+msgstr ""
+
+#: header-front.php:6
+msgid "Chatter Gaily &rarr;"
+msgstr ""
+
+#: header-front.php:7
+msgid "Screenshots"
+msgstr ""
+
+#: header-nav.php:5
+msgid "About"
+msgstr ""
+
+#: header-nav.php:6
+msgid "Plugins"
+msgstr ""
+
+#: header-nav.php:7
+msgid "Themes"
+msgstr ""
+
+#: header-nav.php:8
+msgid "Documentation"
+msgstr ""
+
+#: header-nav.php:9 sidebar.php:98
+msgid "Blog"
+msgstr ""
+
+#: header-nav.php:10
+msgid "Support"
+msgstr ""
+
+#: header-nav.php:11
+msgid "Download"
+msgstr ""
+
+#: header-subnav.php:11
+msgid "Register"
+msgstr ""
+
+#: header-subnav.php:12
+msgid "Lost Password"
+msgstr ""
+
+#: header-subnav.php:13
+msgid "Log In"
+msgstr ""
+
+#: header-subnav.php:15
+msgid "Favorites"
+msgstr ""
+
+#: header-subnav.php:16
+msgid "Subscriptions"
+msgstr ""
+
+#: image.php:11
+msgid "Read more &laquo;"
+msgstr ""
+
+#: image.php:13
+msgid "Published on"
+msgstr ""
+
+#. translators: 1: Date; 2: time.
+#: image.php:17
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. translators: author posts link
+#: image.php:23
+msgid "by <cite>%s</cite>"
+msgstr ""
+
+#: image.php:26
+msgid "Tagged as"
+msgstr ""
+
+#: image.php:27
+msgid "Categorized under"
+msgstr ""
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>not been left</dd>"
+msgstr ""
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>been left once</dd>"
+msgstr ""
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>been left % times</dd>"
+msgstr ""
+
+#: image.php:29
+msgid "<dt>Feedback has</dt><dd>been turned off</dd>"
+msgstr ""
+
+#: image.php:30
+msgid "Syndication through"
+msgstr ""
+
+#: image.php:33
+msgid "Trackback from"
+msgstr ""
+
+#: image.php:34
+msgid "your own site"
+msgstr ""
+
+#: image.php:37
+msgid ""
+"<dt>Respond if</dt><dd><a href=\"#respond\">you&#8217;d like to leave "
+"feedback</a></dd>"
+msgstr ""
+
+#: image.php:39 page.php:11
+msgid "Edit"
+msgstr ""
+
+#: image.php:39
+msgid "You can"
+msgstr ""
+
+#: image.php:44
+msgid "View Older or Newer Images"
+msgstr ""
+
+#: image.php:56
+msgid "Sorry, no images matched your criteria."
+msgstr ""
+
+#: index.php:17 single.php:11
+msgid "Read more &rarr;"
+msgstr ""
+
+#: index.php:23
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: index.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: page-homepage.php:7 sidebar.php:21
+msgid "Recent Topics"
+msgstr ""
+
+#: page.php:5
+msgid "Read more &raquo;"
+msgstr ""
+
+#: page.php:7
+msgid "Pages:"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search this website"
+msgstr ""
+
+#: searchform.php:4
+msgid "for:"
+msgstr ""
+
+#: sidebar.php:9
+msgid "Forum Info"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Forum Feeds"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Forum Posts"
+msgstr ""
+
+#: sidebar.php:20
+msgid "Recent Posts"
+msgstr ""
+
+#: sidebar.php:28
+msgid "Topic Info"
+msgstr ""
+
+#: sidebar.php:36
+msgid "Topic Tags"
+msgstr ""
+
+#: sidebar.php:49
+msgid "Topic Admin"
+msgstr ""
+
+#: sidebar.php:61
+msgid "Forums"
+msgstr ""
+
+#: sidebar.php:68
+msgid "Views"
+msgstr ""
+
+#: sidebar.php:81
+msgid "Feeds"
+msgstr ""
+
+#: sidebar.php:83
+msgid "All Recent Posts"
+msgstr ""
+
+#: sidebar.php:84
+msgid "All Recent Topics"
+msgstr ""
+
+#: sidebar.php:89 sidebar.php:113
+msgid "Tags"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "BBorg"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://buddypress.org"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Parent theme for BuddyPress.org and bbPress.org"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "John James Jacoby"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://jaco.by"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Homepage"
+msgstr ""
